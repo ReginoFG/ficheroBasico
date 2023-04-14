@@ -11,7 +11,7 @@ public class escritura {
         PrintWriter pw = null;
         try
         {
-            fichero = new FileWriter("C:\\\\Users\\\\garfe\\\\Desktop\\\\Fichero.txt");
+            fichero = new FileWriter("C:\\Users\\garfe\\Desktop\\Fichero.txt");
             pw = new PrintWriter(fichero);
 
             for (int i = 0; i < 10; i++) {
